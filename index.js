@@ -12,3 +12,10 @@ botonesNumeros.forEach(boton => {
 botonesOperadores.forEach(boton => {
     boton.addEventListener('click', () => display.computar(boton.value))
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const botonExplicacion = document.querySelector('.Explicacion');
+    
+    botonExplicacion.addEventListener('click', function() {
+        display.mostrarExplicacion();
+    });
+});

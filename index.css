@@ -52,6 +52,7 @@ p {
     color: white;
 }
 
+
 .calculadora button:active {
     background-color: #6C3483;
     transform: scale(0.95);
